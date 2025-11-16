@@ -68,4 +68,77 @@
 		"VisionDaytimeRange"    	"1800"                  // Range of vision at night time.
 		"VisionNighttimeRange"    	"1800"                  // Range of vision at night time.
 	}
+
+	"npc_dota_hero_pudge"
+	{
+		"override_hero"                          "npc_dota_hero_pudge"
+
+		"AbilityLayout"                          "32"
+		//"AbilityTalentStart"                     "10"
+
+		"Ability1"        	"barebones_empty1"
+		"Ability2"			"barebones_empty2"
+		"Ability3"			"barebones_empty3"
+		"Ability4"        	"barebones_empty4" // innates usually go here
+		"Ability5"			"barebones_empty5"
+		"Ability6"			"barebones_empty6" // ultimates usually go here
+		"Ability7"			""
+		"Ability8"        	""
+		"Ability9"        	""
+		"Ability10"         ""
+		"Ability11"         ""
+		"Ability12"         ""
+		"Ability13"         ""
+		"Ability14"         ""
+		"Ability15"         ""
+		"Ability16"         ""
+		"Ability17"         ""
+		"Ability18"         ""
+		"Ability19"         ""
+		"Ability20"         ""
+		"Ability21"         ""
+		"Ability22"         ""
+		"Ability23"         ""
+		"Ability24"         ""
+		"Ability25"         ""
+		"Ability26"         ""
+		"Ability27"         ""
+		"Ability28"         ""
+		"Ability29"         ""
+		"Ability31"         ""
+		"Ability32"         ""
+
+		//"AbilityTalentStart"		"10"
+
+		"ArmorPhysical"       		"0"                 	// Physical protection.
+		"MagicalResistance"       	"0"                 	// Magical protection (percentage).
+
+		//"AttackCapabilities"    	"DOTA_UNIT_CAP_NO_ATTACK"
+		"AttackDamageMin"     		"1"                   	// Damage range min.
+		"AttackDamageMax"     		"1"                   	// Damage range max.
+
+		"AttributePrimary"      	"DOTA_ATTRIBUTE_STRENGTH"
+		"AttributeBaseStrength"   	"0"                   	// Base strength
+		"AttributeStrengthGain"   	"0.0"                   // Strength bonus per level.
+		"AttributeBaseIntelligence" "0"                   	// Base intelligence
+		"AttributeIntelligenceGain" "0.0"                   // Intelligence bonus per level.
+		"AttributeBaseAgility"    	"0"                   	// Base agility
+		"AttributeAgilityGain"    	"0.0"                   // Agility bonus per level.
+
+		"MovementCapabilities"    	"DOTA_UNIT_CAP_MOVE_GROUND"
+		"MovementSpeed"       		"300"
+		"MovementTurnRate"      	"1.0"                 	// Turning rate.
+
+		"StatusHealth"        		"1000"                 	// Base health.
+		"StatusHealthRegen"     	"1.5"                 	// Base health regeneration
+		"StatusMana"        		"400"                   // Base mana.
+		"StatusManaRegen"     		"1.0"                 // Base mana regeneration
+
+		"VisionDaytimeRange"    	"650"                  // Range of vision at night time.
+		"VisionNighttimeRange"    	"650"                  // Range of vision at night time.
+	}
+
+
+
 }
+

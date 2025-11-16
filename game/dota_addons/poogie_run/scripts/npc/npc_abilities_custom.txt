@@ -177,4 +177,66 @@
 			"height"						"100 200 300 400"
 		}
 	}
+
+	"barebones_empty1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            "0"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+
+	"barebones_empty2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            "0"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+
+	"barebones_empty3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            "0"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+
+	"barebones_empty4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            "0"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+
+	"barebones_empty5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            "0"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+
+	"barebones_empty6"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN"
+		"MaxLevel"            "0"
+		"BaseClass"           "ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+
+
 }

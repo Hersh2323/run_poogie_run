@@ -183,6 +183,42 @@ function barebones:OnHeroInGame(hero)
 			end
 		end
 	end)
+
+	local abilities_to_remove = {
+		"ability_capture",
+		"abyssal_underlord_portal_warp",
+		"twin_gate_portal_warp",
+		"ability_lamp_use"
+	} 
+
+	hero:RemoveAbility("ability_capture")
+	hero:RemoveAbility("abyssal_underlord_portal_warp")
+	hero:RemoveAbility("twin_gate_portal_warp")
+	hero:RemoveAbility("ability_lamp_use")
+
+
+
+	--[[
+	for i = 1, #abilities_to_remove do
+		current_ability = hero:FindAbilityByName(abilities_to_remove[i])
+		print("Removing: " .. current_ability:GetName())
+		hero:RemoveAbility(current_ability)
+	end
+	]]
+	
+	if hero:IsRealHero() then
+		for i = 1, 64 do
+			local abil = hero:GetAbilityByIndex(i)
+			if abil ~= nil then
+				print("Ability: " .. i .. ": " .. abil:GetName() )
+			end
+		end
+	end	
+
+
+
+
+
 end
 
 -- An item was picked up off the ground
